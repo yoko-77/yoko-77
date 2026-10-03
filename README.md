@@ -28,4 +28,39 @@
 - [11-2-8-task-crud-practice](https://github.com/yoko-77/11-2-8-task-crud-practice) — タスク管理APIのCRUD実装（GET / POST / PUT / DELETE）
 
 ### その他
-- [github-collab-practice](https://github.com/yoko-77/github-collab-practice) — Issue作成 → ブランチ → PR → レビュー → マージまで通し対応
+- [github-collab-practice](https://github.com/yoko-77/github-collab-practice) — Issue作成 → ブランチ → PR → レビュー → マージまで通し対応\
+  
+
+## 🛠️ 学習した技術
+
+**言語・フレームワーク**
+- PHP 8.x
+- Laravel 10.x
+
+**データベース**
+- MySQL / phpMyAdmin
+- マイグレーション、シーダー
+- Eloquent ORM（hasMany / belongsTo / belongsToMany）、Factory
+
+**画面**
+- Blade テンプレート
+
+**認証・認可・セキュリティ**
+- Laravel Fortify（認証）
+- Policy / Gate（認可）
+- カスタムミドルウェア
+- FormRequest / バリデーションルール
+- CSRF 保護（`@csrf`）、XSS 対策（Blade の自動エスケープ）
+
+**API**
+- REST API（CRUD / JSONレスポンス）
+- API Resources
+- Postman（動作確認）
+
+**テスト・デバッグ**
+- PHPUnit
+- `dd()` / `dump()` / `Log` ファサード
+
+**環境・ツール**
+- Docker / Laravel Sail
+- Git / GitHub
